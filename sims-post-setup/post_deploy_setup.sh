@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 SIM_NAME=$1
 curl --location --request POST 'sim-${SIM_NAME}-backend:3003/repository/parties' \
 --header 'Content-Type: application/json' \
